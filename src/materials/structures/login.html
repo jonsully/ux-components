@@ -1,0 +1,23 @@
+---
+notes: |
+  ###  Login Form   
+  ####  Username/Email
+  Accepts an email address. Validates for proper formatting and existence of an associated account.
+  ####  Password
+  Accepts a password. The password will be masked.
+  ####  Forgot Password
+  Clicking this link will initiate the password recovery flow.
+---
+
+<form id="demo-form" data-parsley-validate="" action="">
+  <div class="secure-form">
+    <label required for="userName">User Name/Email</label>
+    <input type="text" id="userName" name="username" required autocomplete="user" placeholder="Your Email" />
+    
+    <label required for="password">Password</label>
+    <input type="password" id="password" name="password" required autocomplete="password"/>
+    <a href=''>forgot password?</a>
+    
+  </div>
+  {{> forms.button}} Need an account? <a href="">Sign Up</a>
+</form>

@@ -1,0 +1,993 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cover"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"flex",
+				"flex-shrink"
+			],
+			[
+				"fl",
+				"inline-flex"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"disapp",
+				"disappearsAt〔variable〕"
+			],
+			[
+				"fina",
+				"finalScore"
+			],
+			[
+				"output",
+				"outputField〔variable〕"
+			],
+			[
+				"create",
+				"createElement〔function〕"
+			],
+			[
+				"Am",
+				"AmGraph-4"
+			],
+			[
+				"AmGrap",
+				"AmGraph-2"
+			],
+			[
+				"line",
+				"lineColor"
+			],
+			[
+				"ValueAxis",
+				"ValueAxis-2"
+			],
+			[
+				"has",
+				"has_presence〔function〕"
+			],
+			[
+				"pa",
+				"$password〔variable〕"
+			],
+			[
+				"say_hello",
+				"say_hello_to"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"num",
+				"numbers"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-image"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/materials/components/forms/04-validation-errors.html",
+			"settings":
+			{
+				"buffer_size": 875,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/materials/structures/form.html",
+			"settings":
+			{
+				"buffer_size": 1047,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/materials/structures/payment-form.html",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/toolkit/styles/toolkit.scss",
+			"settings":
+			{
+				"buffer_size": 3434,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/materials/components/forms/01-text-input.html",
+			"settings":
+			{
+				"buffer_size": 595,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/toolkit/scripts/toolkit.js",
+			"settings":
+			{
+				"buffer_size": 1109,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/jquery.inputmask/package.json",
+			"settings":
+			{
+				"buffer_size": 3483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 3870,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/jquery.inputmask/index.js",
+			"settings":
+			{
+				"buffer_size": 430,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"Package Control: Pre",
+				"Package Control: Discover Packages"
+			],
+			[
+				"j",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"COlo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"Color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: php",
+				"Snippet: phptag"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Free",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Sully/ux-components/src",
+		"/Users/Sully/ux-components/src/assets",
+		"/Users/Sully/ux-components/src/assets/fabricator",
+		"/Users/Sully/ux-components/src/assets/fabricator/styles",
+		"/Users/Sully/ux-components/src/assets/toolkit",
+		"/Users/Sully/ux-components/src/assets/toolkit/scripts",
+		"/Users/Sully/ux-components/src/assets/toolkit/styles",
+		"/Users/Sully/ux-components/src/data",
+		"/Users/Sully/ux-components/src/materials",
+		"/Users/Sully/ux-components/src/materials/components",
+		"/Users/Sully/ux-components/src/materials/components/forms",
+		"/Users/Sully/ux-components/src/materials/structures",
+		"/Users/Sully/ux-components/src/views",
+		"/Users/Sully/ux-components/src/views/layouts",
+		"/Users/Sully/ux-components/src/views/layouts/includes",
+		"/Users/Sully/ux-components/src/views/pages"
+	],
+	"file_history":
+	[
+		"/Users/Sully/ux-components/package.json",
+		"/Users/Sully/ux-components/src/materials/structures/form.html",
+		"/Users/Sully/ux-components/src/materials/components/forms/03-secure-text-input.html",
+		"/Users/Sully/ux-components/src/materials/components/forms/01-text-input.html",
+		"/Users/Sully/ux-components/src/materials/components/paragraph.html",
+		"/Users/Sully/ux-components/src/views/pages/home.html",
+		"/Users/Sully/ux-components/src/data/toolkit.yml",
+		"/Users/Sully/ux-components/src/materials/components/carousel.html",
+		"/Users/Sully/ux-components/src/assets/toolkit/styles/flickity.scss",
+		"/Users/Sully/ux-components/gulpfile.js",
+		"/Users/Sully/ux-components/src/materials/components/forms/02-text-input-floating.html",
+		"/Users/Sully/ux-components/src/assets/toolkit/scripts/toolkit.js",
+		"/Applications/MAMP/htdocs/ABC-redesign/wp-content/themes/twentyseventeen/style.css",
+		"/Applications/MAMP/htdocs/ABC-redesign/wp-content/themes/twentyseventeen/single.php",
+		"/Applications/MAMP/htdocs/ABC-redesign/wp-content/themes/twentyseventeen/index.php",
+		"/Applications/MAMP/htdocs/ABC-redesign/wp-config.php",
+		"/Users/Sully/Sites/cleverninja/page.php",
+		"/Users/Sully/dev/experiments/flex-box/flex-box-gallery-mi.html",
+		"/Users/Sully/Downloads/cta.kml",
+		"/Users/Sully/dev/experiments/google maps/geocode.html",
+		"/Users/Sully/Sites/cleverninja/404.php",
+		"/private/var/folders/65/v8_6b08j2h3_68qxz1d4znhh0000gn/T/fz3temp-1/404.php",
+		"/Users/Sully/Sites/cleverninja/page-404.php",
+		"/private/var/folders/65/v8_6b08j2h3_68qxz1d4znhh0000gn/T/fz3temp-1/base.css",
+		"/private/var/folders/65/v8_6b08j2h3_68qxz1d4znhh0000gn/T/fz3temp-1/layout.css",
+		"/Users/Sully/dev/experiments/sully/css/styles.css",
+		"/Users/Sully/Google Drive/__DynamitArchives/Clients & Projects/MI Homes/MIO162670 - Website Content Strategy /Meta Data/B.4.2-inventory-home-details.html",
+		"/Users/Sully/Google Drive/__DynamitArchives/Clients & Projects/MI Homes/MIO162670 - Website Content Strategy /Meta Data/B.3.2-plan-details.html",
+		"/Users/Sully/kmlMaps/cb_2015_us_ua10_500k_city_thin.kml",
+		"/Users/Sully/Downloads/cb_2015_39_place_500k/cb_2015_39_place_500k.kml",
+		"/Users/Sully/Google Drive/__DynamitArchives/Clients & Projects/MI Homes/MIO162670 - Website Content Strategy /Meta Data/B.2.2-community-details.html",
+		"/Users/Sully/Documents/WBS/css/theme2.css",
+		"/Users/Sully/Documents/WBS/css/styles.css",
+		"/Users/Sully/dev/experiments/search form/js/search.js",
+		"/Users/Sully/Downloads/SpawnMaps/index.html",
+		"/Users/Sully/dev/easy-peasy-slash-command-app/package.json",
+		"/Users/Sully/node_modules/botkit/examples/team_slashcommand.js",
+		"/Users/Sully/dev/experiments/sully/index.html",
+		"/Users/Sully/Downloads/export.xml",
+		"/Users/Sully/Desktop/plat.svg",
+		"/Users/Sully/dev/experiments/search form/search-form.html",
+		"/Users/Sully/Downloads/nest-cloud-nodejs-master/config.json",
+		"/Users/Sully/Downloads/nest-cloud-nodejs-master/src/app.js",
+		"/Users/Sully/Downloads/nest-cloud-nodejs-master/src/custom_elements/nest-thermostat.html",
+		"/Users/Sully/Documents/WBS/fb-login.html",
+		"/Users/Sully/Documents/WBS/addevent-test.html",
+		"/Users/Sully/dev/spawnScan/map.html",
+		"/Users/Sully/Downloads/cb_2015_us_cbsa_500k/cb_2015_us_cbsa_500k.kml",
+		"/Users/Sully/Downloads/cb_2015_us_ua10_500k/cb_2015_us_ua10_500k.kml",
+		"/Users/Sully/Desktop/data=!3m1!4b1!4m5!3m4!1s0x883889c1b990de71:0xe43266f8cfb1b533!8m",
+		"/Users/Sully/dev/experiments/google maps/zoom-level.html",
+		"/Users/Sully/dev/spawnScan/viewWork.html",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Sully/dev/PokemonGo-Map/config/config.ini",
+		"/Users/Sully/dev/spawnScan/spawns.json",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/static/js/map.js",
+		"/Users/Sully/dev/spawnScan/config.json",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/config/config.ini",
+		"/Users/Sully/dev/experiments/search form/css/styles.css",
+		"/Users/Sully/Documents/WBS/ftpsync.settings",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/pogom/search.py",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/pogom/models.py",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/static/dist/js/map.built.js",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/package.json",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/static/data/mapstyle.json",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/pogom/customLog.py",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/templates/map.html",
+		"/Users/Sully/dev/PokemonGo-Map-Scan/runserver.py",
+		"/Users/Sully/dev/PokemonGo-Map/spawns.json",
+		"/Users/Sully/dev/spawnScan/pokes.json",
+		"/Users/Sully/Documents/WBS/styles.css",
+		"/Users/Sully/Desktop/iframe.html",
+		"/Users/Sully/Downloads/andr-04-inputmask-multi-48a07e1/js/jquery.inputmask-multi.min.js",
+		"/Users/Sully/Downloads/Global_Configuration-android.json",
+		"/Users/Sully/Sites/inputmask-multi/data/phones-us.json",
+		"/Users/Sully/Downloads/andr-04-inputmask-multi-48a07e1/data/phones-us.json",
+		"/Applications/MAMP/bin/phpMyAdmin/themes/original/jquery/jquery-ui-1.9.2.custom.css",
+		"/Users/Sully/Documents/clients/MI Homes Folder/Batch Deliverables/Batch 03/Cherry Stories",
+		"/Users/Sully/node_modules/selenium-webdriver/package.json",
+		"/Users/Sully/node_modules/selenium-webdriver/example/google_search.js",
+		"/Users/Sully/node_modules/selenium-webdriver/chrome.js",
+		"/Library/WebServer/Documents/drupal6/sites/default/settings.php",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Library/WebServer/Documents/drupal6/install.php",
+		"/Library/WebServer/Documents/drupal6/includes/file.inc",
+		"/Users/Sully/Downloads/Bonton-ios (1).json",
+		"/Users/Sully/drupal/sites/default/settings.php",
+		"/Applications/MAMP/bin/php/php5.6.2/conf/php.ini",
+		"/Users/Sully/Sites/index.php",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/User/JSONReindent.sublime-settings",
+		"/Users/Sully/node_modules/selenium-webdriver/example/google_search_test.js",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Sully/Documents/fullpage.html",
+		"/Users/Sully/Documents/template.html",
+		"/Users/Sully/Downloads/ZillowNeighborhoods-OH/ZillowNeighborhoods-OH.shp.xml",
+		"/Users/Sully/Downloads/WB/13aMobileCareerSection-12-3-2013 (3).zip",
+		"/Users/Sully/Downloads/WB/wb-mobile-js-11-19 (1) (1)/theme/css/taleo.css",
+		"/Users/Sully/Downloads/WB/wb-mobile-js-11-19 (1) (1)/theme/css/taleo.mobile.css",
+		"/Users/Sully/Downloads/WB/wb-mobile-js-11-19 (1) (1)/theme/css/style.css",
+		"/Users/Sully/Downloads/WB/wb-mobile-js-11-19 (1) (1)/job-list.html",
+		"/Users/Sully/Downloads/WB/13aMobileCareerSection-12-3-2013 (3)/index.html",
+		"/Users/Sully/Downloads/WB/13aMobileCareerSection-12-3-2013 (3)/theme/css/style.css",
+		"/Users/Sully/cleverninja/jonsully.github.io/example.sh",
+		"/Users/Sully/Downloads/35a.kml",
+		"/Users/Sully/Documents/Boggle/boggle.js",
+		"/Users/Sully/Documents/Boggle/boggle.html",
+		"/Users/Sully/Documents/Boggle/boggle.css",
+		"/Users/Sully/Downloads/amcharts.editor.html",
+		"/Users/Sully/Documents/GoHunt/Prototypes/odds-table.js",
+		"/Users/Sully/Documents/GoHunt/Prototypes/odds.css",
+		"/Users/Sully/Documents/GoHunt/Prototypes/odds.html",
+		"/Users/Sully/Documents/Whataburger/Retainer/whataburger-order-query.sql",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/User/phptag.sublime-snippet",
+		"/Users/Sully/Sites/sandbox/form_with_validation.php",
+		"/Users/Sully/Sites/sandbox/redirect.php",
+		"/Users/Sully/Sites/sandbox/form_processing.php",
+		"/Users/Sully/Sites/sandbox/validation_errors.php",
+		"/Users/Sully/Sites/sandbox/validation_functions.php",
+		"/Users/Sully/Sites/sandbox/second_page.php",
+		"/Users/Sully/Sites/sandbox/first_page.php",
+		"/Users/Sully/Sites/sandbox/included_functions.php",
+		"/Users/Sully/Sites/sandbox/includes.php",
+		"/Users/Sully/Sites/sandbox/false_positives.php",
+		"/Users/Sully/Sites/sandbox/function_arguments.php",
+		"/Users/Sully/Sites/sandbox/switch.php",
+		"/Users/Sully/Sites/sandbox/functions.php",
+		"/Users/Sully/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			"/Users/Sully/dev/PokemonGo-Map-Scan",
+			"/Users/Sully/dev/PokemonGo-Map-Scan/",
+			"/Users/Sully/dev/PokemonGo-Map-Scan",
+			"<current file>",
+			"/Users/Sully/hippo-project-archetype-2.00.xx/target/gettingstarted"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}\n",
+			"secure",
+			"url",
+			"path",
+			"config.js",
+			"cell",
+			"14px",
+			"textdomain",
+			"logo",
+			"auto",
+			"shorturl",
+			"utm_campaign",
+			"campaign",
+			"source",
+			"utm_term",
+			"url=\"(.*)\"[^ ]",
+			"(url=\".*\"\\s){1}",
+			"((url=\".*\"){1}\\s)",
+			"(url=\"\\S\")",
+			"(url=\".*\" ){1}$",
+			"(url=\".*\" ){1}",
+			"(url=\".*\"){1}",
+			"(to=\".*\")( />)$|(to=\".*\")(></redirect>)",
+			"(to=\".*\")( />)$|(to=\".*\")( ></redirect>)",
+			"(to=\".*\")( />)$",
+			"(to=\".*\") />$",
+			"/(to=\".*\")/>$/g",
+			"url=\".*\"(\\s)",
+			"url\\=\\\"\\w.*\\\"",
+			"url\\=\\\"\\w+\\\"",
+			"url\\=\\\"\\w\\\"",
+			"url=\\w+",
+			"\"url=\\w+\"",
+			"AutoDrip",
+			"campaign=Austin",
+			"hawaii",
+			"Raleigh",
+			"VIP",
+			"Maryland",
+			"whiteoak",
+			"ShortUrl",
+			"hans",
+			"model",
+			"mo",
+			"HomeConstruction",
+			"product",
+			"lat",
+			"LocalBusiness",
+			"address",
+			"openingHours",
+			">",
+			"Columbus",
+			"Look",
+			"folder",
+			"Columbus, Oh",
+			"Columbus, OH",
+			"http://*",
+			"\\n",
+			" ",
+			"</\\w+>",
+			"<\\w+>",
+			"<*+>",
+			"<\\*+>",
+			"<\\w+>",
+			"\\<\\w+>",
+			"\\<+w+>",
+			"<+w+>",
+			"<w+>/g",
+			"<\\w+>/g",
+			"/(<)\\w+(>)/g",
+			"/(<)\\w+(>)/",
+			"/(<)\\w+(>)",
+			"/</*/>",
+			"<*>",
+			"addressType",
+			"componentForm",
+			"SearchText",
+			");\n",
+			"map_cell",
+			"disappearsAt",
+			"disappears At",
+			"addListeners",
+			"updateLabel",
+			"disappearsAt",
+			"updateLabel",
+			"marker",
+			"updateLabelDiffTime",
+			"disappearsAt",
+			"disappears",
+			"disappearsAt",
+			"&",
+			"send",
+			"sendNoti",
+			"sendNotif",
+			"notified",
+			"chrome.notifications.create",
+			"create",
+			"df",
+			"if",
+			"filename",
+			"chrome",
+			"create",
+			"arg",
+			"chrome.notifications.create",
+			"args",
+			"chrome.notifications.create",
+			"alert",
+			"notification",
+			"chrome.notifications",
+			"notif",
+			"alert",
+			"type",
+			"span",
+			"paper",
+			"ru",
+			"output",
+			"class",
+			"multi",
+			"ereg",
+			"it works",
+			"enterAccountDetailsIdentificationDropdown_1LabelText",
+			"legalFooter",
+			"legalfooter",
+			"require",
+			"driver =",
+			"\\B(/l\\n)?\\n",
+			"\\n",
+			"\\r"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"actual",
+			"",
+			" ",
+			"%26amp%3B",
+			"",
+			"f48325",
+			"th",
+			"exact",
+			"echo is_equal(0, false);\n            echo is_equal(4, true);\n            echo is_equal(0, null);\n            echo is_equal(0, \"0\");\n            echo is_equal(0, \"\");\n            echo is_equal(0, \"a\");\n            echo is_equal(\"1\", \"01\");\n            echo is_equal(\"\", null);\n            echo is_equal(3, \"3 dogs\");\n            echo is_equal(100, \"1e2\");\n            echo is_equal(100, 100.00);\n            echo is_equal(\"abc\", true);\n            echo is_equal(\"123\", \"   123\");\n            echo is_equal(\"123\", \"+0123\");",
+			"equal",
+			"myCarousel",
+			"brandCarousel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/materials/components/forms/04-validation-errors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/materials/structures/form.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/materials/structures/payment-form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/toolkit/styles/toolkit.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3430,
+								3430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/materials/components/forms/01-text-input.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/assets/toolkit/scripts/toolkit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1010,
+								1010
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "node_modules/jquery.inputmask/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 989.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "node_modules/jquery.inputmask/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 228.0
+	},
+	"output.find_results":
+	{
+		"height": 47.0
+	},
+	"pinned_build_system": "Packages/User/JavaScript.sublime-build",
+	"project": "ux-components.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/elegant_js/chapter-2"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

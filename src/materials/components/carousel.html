@@ -1,0 +1,21 @@
+---
+notes: |
+  ### Carousel
+  #### Auto-play
+  Generally, autoplay is not recommended unless the curation of carousel content warrants the attention that an animated element will receive. If used, the following requirements apply:
+  - On desktop devices or devices that can trigger a hover state, carousel auto-play will pause. Users have a tendency to look with their mouse, and hovering on a slide implies that it has their attention. If they intend to click on it, a sudden slide change can result in arriving at the wrong destination. Autoplay should resume once the hover becomes inactive.
+  - When a user interacts with the carousel, manually advancing slides, auto-play should permanently stop for the duration of the page view. When a user chooses to interact with the element, they are engaged with it and should be able to view slides at their own pace. 
+  - Auto-play advance delay should be set appropriately to allow for a user to read the content. 5-7 seconds per slide is typically sufficient for short headline type content, but more text-heavy slides require a longer delay. 
+  - Auto-play is not recommended on mobile, as there is no ability to hover on most mobile devices.
+  #### Navigation
+  Carousels should have the ability to be navigated using three methods:
+  - Left/right arrow buttons provide affordance for clicking, and communicates that the element contains additional content. 
+  - An indicator of position, typically represented as bullets with the current slide position highlighted, should be present, and can also be clicked to advance slides. 
+  - Swiping to advance slides should be supported for carousel use on touch-enabled devices. 
+---
+
+<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "imagesLoaded": true, "autoPlay": 5000 }'>
+  <div class="carousel-cell"><img src="http://placehold.it/800x400"></div>
+  <div class="carousel-cell"><img src="http://placehold.it/800x400/03a9c4/ffffff"></div>
+  <div class="carousel-cell"><img src="http://placehold.it/800x400/F1654A/ffffff"></div>
+</div>

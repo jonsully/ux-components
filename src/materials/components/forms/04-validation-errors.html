@@ -1,0 +1,30 @@
+---
+notes: |
+  ### Form Validation 
+  Right time of informing about problems/success  
+  Right place for validation messages  
+  Right color  
+  Clear language  
+---
+<div class="bs-callout bs-callout-warning hidden">
+  <h4>Oh snap!</h4>
+  <p>This form seems to be invalid :(</p>
+</div>
+
+<div class="bs-callout bs-callout-info hidden">
+  <h4>Yay!</h4>
+  <p>Everything seems to be ok :)</p>
+</div>
+
+<form id="demo-form" data-parsley-validate="">
+<div> 
+  <label class="error required" for="firstName">First Name</label>
+  <input class="error" type="text" id="firstName" name="fname" required="" autocomplete="given-name" placeholder="Example Input" />
+<!--   <span class="form-error-message">Your name is Tyler Durden</span> -->
+  <label class="error required" for="postalCode">ZIP Code</label>
+  <input class="error zip" type="text" id="postalCode" name="ship-zip" required="" autocomplete="shipping postal-code" placeholder="#####" data-parsley-type="integer" />
+  <!-- <span class="form-error-message">Please provide a 5-digit ZIP code</span> -->
+</div>
+<button class="button">Submit</button>
+<!-- <span class="form-error-message">We need a little more information. Review the fields above to continue.</span> -->
+</form>

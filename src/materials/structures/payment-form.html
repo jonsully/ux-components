@@ -1,0 +1,26 @@
+<form id="demo-form" data-parsley-validate="" action="">
+  <div class="secure-form">
+    <label required for="cardName">Name on Card</label>
+    <input type="text" id="cardName" name="ccname" required autocomplete="cc-name" placeholder="Full Name" />
+    
+    <label for="cardNumber">Card Number</label>
+    <input type="text" id="cardNumber" name="cardnumber" class="secure credit" required autocomplete="cc-number" placeholder="1234 1234 1234 1234" data-inputmask="'mask': '9999 9999 9999 9999', 'placeholder': ' ', 'showMaskOnHover': 'false'"/>
+    
+    <label for="expirationDate">Expiration Date</label>
+    <input type="text" id="expirationDate" name="cc-exp" class="expiration-date" required autocomplete="cc-exp" placeholder="MM/YY" data-field-length="4" data-inputmask="'mask': '99/99', 'placeholder': ' ', 'showMaskOnHover': 'false'" />
+    
+    <div class="table">
+      <div>
+        <label for="securityCode">Security Code</label>
+        <input type="text" id="securityCode" name="cvc" maxlength="3" class="secure" required autocomplete="cc-csc" placeholder="123" data-field-length="4" />
+      </div>
+      <div>
+        <img class="cvc-img" src="/assets/toolkit/images/cvc-example.png" />
+      </div>
+    </div>
+    
+    <label class="required" for="billingPostalCode">ZIP Code</label>
+    <input type="text" id="billingPostalCode" name="ship-zip" maxlength="5" required autocomplete="shipping postal-code" placeholder="#####" data-field-length="5"/>
+  </div>
+  {{> forms.button}}
+</form>

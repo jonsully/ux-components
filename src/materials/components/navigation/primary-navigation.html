@@ -1,0 +1,34 @@
+---
+notes: |
+  ###  Primary Navigation  
+  ####  Active States
+  Hovering over a navigation link will apply a hover state to the navigation item in order to indicate interactivity. location indicators on the navigation help people orient themselves on the site, especially if they are deeper within the website. This clear visual indicator can indicate which section someone is in. 
+  #### Subpages and Landing Pages
+  Either all navigational elements should display their subpage links, or none of them; displaying subpages for only some sections may confuse people into thinking that sections that don’t display subpages actually do not have subpages. And if subpages aren’t listed in the primary navigation, ensure that secondary navigation is used consistently across all sections.
+---
+
+<div class="navigation-wrapper">
+  <div>
+    <ul>
+      <li><a href="#navigation">Home</a></li>
+      <li><a href="#navigation">Shop</a></li>
+      <li><a href="#navigation">About Us</a></li>
+      <li><a href="#navigation">Careers</a></li>
+      <li><a href="#navigation">Investors</a></li>
+      <li><a href="#navigation">Login</a></li>
+      <li><a href="#" data-jq-dropdown="#jq-dropdown-1">Dropdown &#9662;</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="jq-dropdown-1" class="jq-dropdown jq-dropdown-tip">
+    <ul class="jq-dropdown-menu">
+        <li><a href="#1">Item 1</a></li>
+        <li><a href="#2">Item 2</a></li>
+        <li><a href="#3">Item 3</a></li>
+        <li class="jq-dropdown-divider"></li>
+        <li><a href="#4">Item 4</a></li>
+        <li><a href="#5">Item 5</a></li>
+        <li><a href="#5">Item 6</a></li>
+    </ul>
+</div>

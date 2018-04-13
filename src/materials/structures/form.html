@@ -1,0 +1,18 @@
+---
+notes: |
+  ###  General Form Guidelines    
+  #### Input Width
+  Input width can inform a user's understanding of the required text input. While it can be convenient to keep fields a consistent width from a development perspective, providing appropriate field widths for input such as postal codes and expiration dates communicate if the answer should be short or long. 
+  #### Button Placement
+  Proximal button placement is essential within forms. If a submit button is located off-screen or far away from the form itself, a user will have a difficult time making the connection that the form and button are related. 
+  #### Highlighted Field Groups
+  Another consumer confidence booster is to provide a distinct highlighting around fields which require sensitive information. Again, while this does not provide technical security, it provides perceived security to the user. 
+---
+
+<form id="demo-form" data-parsley-validate="" action="">
+	<div>
+		{{> forms.text-input}}
+    {{> forms.secure-text-input}}
+	</div>
+	{{> forms.button}}
+</form>

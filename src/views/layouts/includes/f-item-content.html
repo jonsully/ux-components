@@ -1,0 +1,23 @@
+{{#if notes}}
+<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>   <!-- can't get fabricator to load clipboard, linking to cdn  -->
+<div id="notes" class="f-item-notes" data-f-toggle="notes">	
+{{{notes}}}
+
+</div>
+{{/if}}
+<div class="f-item-preview">
+	{{{material @key @root}}}
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">{{material @key @root}}</code></pre>
+</div>
+<!-- <script> 
+var btns = document.querySelectorAll('.copy');
+var trigger = document.getElementById('#notes');
+var clipboard = new Clipboard(btns, {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+});
+</script> -->
+
